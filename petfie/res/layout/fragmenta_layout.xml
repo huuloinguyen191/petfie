@@ -1,0 +1,39 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img1" >
+
+    <TextView
+        android:id="@+id/tvFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fragment A"
+        android:textSize="22dp" />
+
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="384dp"
+        android:text="SIGN IN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="341dp"
+        android:text="LOGIN EMAIL" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="435dp"
+        android:text="LOGIN FACEBOOK" />
+
+</AbsoluteLayout>
